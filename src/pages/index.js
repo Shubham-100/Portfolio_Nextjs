@@ -68,7 +68,7 @@ export default function Home() {
             
             <div className="flex flex-col flex-wrap gap-8 pb-5 text-black  dark:text-white">
               <h3>YouTubeMate</h3>
-              <img src="./tubemate.png" width="480" height="480"/>
+              <img src="./tubemate.png" className="w-80 h-64"/>
               <ul className="flex flex-row items-center justify-center gap-4">
                 <li><a href="https://youtubemate1.netlify.app/" target="_blank" className="text-xl bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 mr-4 py-2 rounded-md">Visit Site</a></li>
                 <li><a href="https://github.com/Shubham-100/YouTubeMate" target="_blank"><img src="./github.png" width="32" height="32"/></a></li>
@@ -79,7 +79,7 @@ Users can search for content of their preference based on genre</p>
 
             <div className="flex flex-col flex-wrap gap-8 pb-5 text-black  dark:text-white">
               <h3>Movies Recommendation App</h3>
-              <img src="./movies.png" width="480" height="480"/>
+              <img src="./movies.png" className="w-80 h-64"/>
               <ul className="flex flex-row py-5 items-center justify-center gap-4">
                 <li><a href="https://startling-pothos-879818.netlify.app/" target="_blank" className="text-xl bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 mr-4 py-2 rounded-md">Visit Site</a></li>
                 <li><a href="https://github.com/Shubham-100/Movies-TV-shows" target="_blank"><img src="./github.png" width="32" height="32"/></a></li>
