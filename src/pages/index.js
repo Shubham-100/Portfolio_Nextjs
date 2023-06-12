@@ -71,14 +71,16 @@ export default function Home() {
               <img src="./tubemate.png" width="480" height="480"/>
               <ul className="flex flex-row items-center justify-center gap-4">
                 <li><a href="https://youtubemate1.netlify.app/" target="_blank" className="text-xl bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 mr-8 py-2 rounded-md">Visit Site</a></li>
-                <li><a href="https://github.com/Shubham-100/YouTubeMate"><img src="./github.png" width="32" height="32"/></a></li>
+                <li><a href="https://github.com/Shubham-100/YouTubeMate" target="_blank"><img src="./github.png" width="32" height="32"/></a></li>
               </ul>
               <p>Developed a Youtube like application using ReactJs and Material UI which is responsive in nature. User can stream videos from variety of content creators and genres. Interface is similar to Youtube.
 Users can search for content of their preference based on genre</p>
             </div>
           </div>
         </section>
-        
+        <footer className="p-2  mx-14">
+                <p className="dark:text-white  text-center p-2">Copyright© 2023 | Designed by Shubham</p>
+        </footer>
 
 
       </main>
