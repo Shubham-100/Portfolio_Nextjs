@@ -4,46 +4,83 @@ import {BsFillMoonStarsFill} from 'react-icons/bs';
 import {AiFillTwitterCircle, AiFillLinkedin, AiFillGithub} from 'react-icons/ai';
 import {SiLeetcode, SiGmail} from 'react-icons/si';
 import deved from "../../public/dev-ed-wave.png";
+import { useState } from 'react';
 
 export default function Home() {
+  const [darkMode, setDarkMode] = useState(false);
   return (
-    <div>
+    <div className={darkMode ? "dark" : ""}>
       <Head>
         <title>Shubham - Portfolio Website</title>
-        <link rel="icon" href="./favicon.ico"/>
+        <link rel="icon" href="./port.jpg"/>
       </Head>
-      <main className="bg-white px-5">
+      <main className="bg-white px-5 dark:bg-gray-800">
         <section className="min-h-screen">
-          <nav className="py-5 mb-0 flex justify-between">
-            <h1 className="text-2xl font-burtons"><a href="#">Developed by Shubham</a></h1>
+          <nav className="py-5 mb-0 flex justify-between sticky top-0 z-50 bg-white dark:bg-gray-800">
+            <h1 className="text-2xl font-burtons dark:text-white"><a href="#">Developed by Shubham</a></h1>
             <ul className="flex items-center gap-5">
-              <li className="cursor-pointer text-xl"><BsFillMoonStarsFill/></li>
+              <li className="cursor-pointer text-xl dark:text-white"><BsFillMoonStarsFill onClick={() => setDarkMode(!darkMode)}/></li>
               <li><a href="https://drive.google.com/file/d/15TLi3-uss6GC1rAUBF5apNz0kvNS3jZ4/view" target="_blank" className="text-xl bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-lg">Resume</a></li>
             </ul>
           </nav>
 
-          <div className="text-center p-5">
-            <h2 className="text-6xl py-0 text-teal-500 font-bold">Shubham</h2>
-            <h3 className="text-xl py-2">Open Source Developer</h3>
-            <p className="text-mg py-5 leading-relaxed">Dynamic and skilled software developer with expertise in C++, Python, Java, React, Bootstrap, and the Qt framework. Passionate about open source contributions and actively engaged in the open source community. Regularly practices problem-solving skills through platforms like LeetCode. Looking for a full time Software Developer role, feel free to contact me.</p>
-            
-            <div className="text-5xl flex justify-center gap-12 py-5 text-gray-800">
-              <a href="https://www.linkedin.com/in/shubham-686615155/" target="_blank" className="hover:text-6xl hover:delay-150"><AiFillLinkedin/></a>
-              <a href="https://twitter.com/AryanJangid20" target="_blank" className="hover:text-6xl hover:delay-150"><AiFillTwitterCircle/></a>
-              <a href="mailto:aryan10jangid@gmail.com" className="hover:text-6xl hover:delay-150"><SiGmail/></a>
-              <a href="https://github.com/Shubham-100" target="_blank" className="hover:text-6xl hover:delay-150"><AiFillGithub/></a>
-              <a href="https://leetcode.com/aryan10jangid/" target="_blank" className="hover:text-6xl hover:delay-150"><SiLeetcode/></a>
-            </div>
-          </div>
-
-          <div className="relative bg-gradient-to-b from-cyan-500 to-teal-500 rounded-full w-96 h-96 mx-auto overflow-hidden mt-0">
-            <Image src={deved} layout='fill'/>
+          <div className="dark:text-white">
+              <div className="text-center p-5">
+                <h2 className="text-6xl py-0 text-teal-500 font-bold">Shubham</h2>
+                <h3 className="text-xl py-2">Open Source Developer</h3>
+                <p className="text-mg py-5 leading-8">Dynamic and skilled software developer with expertise in C++, Python, Java, React, Bootstrap, and the Qt framework. Passionate about open source contributions and actively engaged in the open source community. Regularly practices problem-solving skills through platforms like LeetCode. Looking for a full time Software Developer role, feel free to contact me.</p>
+                
+                <div className="text-5xl flex justify-center gap-12 py-5 text-gray-800 dark:text-white">
+                  <a href="https://www.linkedin.com/in/shubham-686615155/" target="_blank" className="hover:text-6xl hover:delay-150"><AiFillLinkedin/></a>
+                  <a href="https://twitter.com/AryanJangid20" target="_blank" className="hover:text-6xl hover:delay-150"><AiFillTwitterCircle/></a>
+                  <a href="mailto:aryan10jangid@gmail.com" className="hover:text-6xl hover:delay-150"><SiGmail/></a>
+                  <a href="https://github.com/Shubham-100" target="_blank" className="hover:text-6xl hover:delay-150"><AiFillGithub/></a>
+                  <a href="https://leetcode.com/aryan10jangid/" target="_blank" className="hover:text-6xl hover:delay-150"><SiLeetcode/></a>
+                </div>
+              </div>
+              <div className="relative bg-gradient-to-b from-cyan-500 to-teal-500 rounded-full w-80 h-80 mx-auto overflow-hidden mt-0">
+                <Image src={deved} layout='fill'/>
+              </div>
           </div>
         </section>
 
         <section>
-          <h1>Projects</h1>
+          <div className="px-20 py-20 shadow-2xl rounded-xl">
+            <h1 className="text-3xl text-center font-semibold text-amber-600 pb-10 justify-center">Skills and Technology</h1>
+            <div className="flex flex-row flex-wrap gap-8">
+              <img src="./c-.png" width="80" height="80"/>
+              <img src="./ds.png" width="80" height="80"/>
+              <img src="./javascript.png" width="80" height="80"/>
+              <img src="./html-5.png" width="80" height="80"/>
+              <img src="./react.png" width="80" height="80"/>
+              <img src="./sql.png" width="80" height="80"/>
+              <img src="./css.png" width="80" height="80"/>
+              <img src="./bootstrap.png" width="80" height="80"/>
+              <img src="./nodejs.png" width="80" height="80"/>
+              <img src="./material-ui.png" width="80" height="80"/>
+            </div>
+          </div>
         </section>
+
+
+        <section>
+          <div className="px-20 py-20 shadow-2xl rounded-xl">
+            <h1 className="text-5xl text-center font-semibold text-amber-600 pb-10 justify-center">Projects</h1>
+            <div className="flex flex-row flex-wrap gap-8">
+              <img src="./c-.png" width="80" height="80"/>
+              <img src="./ds.png" width="80" height="80"/>
+              <img src="./javascript.png" width="80" height="80"/>
+              <img src="./html-5.png" width="80" height="80"/>
+              <img src="./react.png" width="80" height="80"/>
+              <img src="./sql.png" width="80" height="80"/>
+              <img src="./css.png" width="80" height="80"/>
+              <img src="./bootstrap.png" width="80" height="80"/>
+              <img src="./nodejs.png" width="80" height="80"/>
+              <img src="./material-ui.png" width="80" height="80"/>
+            </div>
+          </div>
+        </section>
+        
 
 
       </main>
