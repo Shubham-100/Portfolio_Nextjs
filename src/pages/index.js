@@ -12,7 +12,7 @@ export default function Home() {
     <div className={darkMode ? "dark" : ""}>
       <Head>
         <title>Shubham - Portfolio Website</title>
-        <link rel="icon" href="./port.jpg"/>
+        <link rel="icon" href="./favicon.ico"/>
       </Head>
       <main className="bg-white px-5 dark:bg-gray-800">
         <section className="min-h-screen w-full">
@@ -24,11 +24,11 @@ export default function Home() {
             </ul>
           </nav>
 
-          <div className="dark:text-white">
+          <div className="dark:text-white m-10 mx-auto md:shadow-2xl md:rounded-2xl md:max-w-xl">
               <div className="text-center p-5">
                 <h2 className="text-6xl pt-14 text-teal-500 font-bold">Shubham</h2>
                 <h3 className="text-xl py-2 md:text-2xl">Open Source Developer</h3>
-                <p className="text-md py-5 leading-8 md:text-md max-w-2xl mx-auto">A Two time Google Summer of Code student, dynamic and skilled software developer with expertise in C++, Python, Java, React, Bootstrap, and the Qt framework. Passionate about open source contributions and actively engaged in the open source community. Regularly practices problem-solving skills through platforms like LeetCode. Looking for a full time Software Developer role, feel free to contact me.</p>
+                <p className="text-md py-5 leading-8 md:text-md max-w-xl mx-auto">A Two time Google Summer of Code student, dynamic and skilled software developer with expertise in C++, Python, Javascipt, Java, React, Tailwind and Bootstrap framework. Passionate about open source software and actively engaged in the open source community. Regularly practices problem-solving skills through platforms like LeetCode. Looking for a full time Software Developer role, feel free to contact me.</p>
                 <div className="text-5xl flex justify-center gap-6 py-5 text-gray-800 dark:text-white">
                   <a href="https://www.linkedin.com/in/shubham-686615155/" target="_blank" className="hover:text-6xl hover:delay-150"><AiFillLinkedin/></a>
                   <a href="https://twitter.com/AryanJangid20" target="_blank" className="hover:text-6xl hover:delay-150"><AiFillTwitterCircle/></a>
@@ -44,9 +44,9 @@ export default function Home() {
         </section>
 
         <section>
-          <div className="px-20 py-20 shadow-2xl rounded-xl">
-            <h1 className="text-3xl md:text-5xl text-center font-semibold text-teal-500 dark:text-white  pb-10 justify-center">Skills and Technology</h1>
-            <div className="flex flex-row flex-wrap gap-4 md:gap-8 md:justify-center">
+          <div className="p-20 m-10 mx-auto md:max-w-xl md:shadow-2xl md:rounded-2xl">
+            <h1 className="text-3xl md:text-5xl text-center font-semibold text-teal-500 dark:text-white pb-10 justify-center">Skills and Technology</h1>
+            <div className="flex flex-row flex-wrap gap-4 md:gap-10 md:justify-center">
               <img src="./c-.png" width="80" height="80"/>
               <img src="./ds.png" width="80" height="80"/>
               <img src="./javascript.png" width="80" height="80"/>
@@ -63,7 +63,7 @@ export default function Home() {
 
 
         <section>
-          <div className="px-10 py-5 shadow-2xl rounded-xl mt-0">
+          <div className="px-10 py-5 mt-0 mx-auto md:shadow-2xl md:rounded-2xl md:max-w-xl">
             <h1 className="text-3xl md:text-5xl text-center text-teal-500  font-semibold py-0  justify-center">Projects</h1>
             <h5 className="text-2xl font-medium py-5 text-center text-black dark:text-white">YouTubeMate</h5>
             <div className="flex flex-col flex-wrap gap-8  py-2 text-black  dark:text-white">
@@ -78,7 +78,7 @@ Users can search for content of their preference based on genre</p>
 
 
             <h5 className="text-2xl font-medium py-5 text-center dark:text-white text-teal-500">Movies Recommendation App</h5>
-            <div className="flex flex-col flex-wrap gap-8  py-5 text-black  dark:text-white">
+            <div className="flex flex-col flex-wrap gap-8  py-0 text-black  dark:text-white">
               <img src="./movies.png" className="w-96 h-64 mx-auto border-solid border-black dark:border-white border-4 hover:border-solid md:w-96 md:h-64" />
               <ul className="flex flex-row items-center justify-center gap-4">
                 <li><a href="https://startling-pothos-879818.netlify.app/" target="_blank" className="text-xl bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 mr-4 py-2 rounded-md">Visit Site</a></li>
