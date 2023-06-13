@@ -16,7 +16,7 @@ export default function Home() {
       </Head>
       <main className="bg-white px-5 dark:bg-gray-800">
         <section className="min-h-screen w-full">
-          <nav className="py-2 mb-0 flex justify-between fixed top-0 w-full z-1 bg-white dark:bg-gray-800">
+          <nav className="py-2 mb-0 flex justify-between fixed top-0 w-full z-50 bg-white dark:bg-gray-800">
             <h1 className=" text-2xl font-burtons scroll-smooth dark:text-white"><a href="#">Developed by Shubham</a></h1>
             <ul className="flex items-center mt-0 gap-2 md:gap-6">
               <li className="cursor-pointer text-xl dark:text-white"><BsFillMoonStarsFill onClick={() => setDarkMode(!darkMode)}/></li>
