@@ -39,9 +39,20 @@ export default function Home() {
                   <a href="https://leetcode.com/aryan10jangid/" target="_blank" className="hover:text-6xl hover:delay-150"><SiLeetcode/></a>
                 </div>
               </div>
-              <div className="relative bg-gradient-to-b from-cyan-500 to-teal-500 rounded-full w-80 h-80 mx-auto overflow-hidden mt-0 md:w-96 md:h-96">
-                <Image src={deved} layout='fill'/>
-              </div>
+              {/* <div className="relative bg-gradient-to-b from-cyan-500 to-teal-500 rounded-full w-80 h-80 mx-auto overflow-hidden mt-0 md:w-96 md:h-96">
+                {
+                  darkMode ? <img alt="Night Coding" src="https://raw.githubusercontent.com/AVS1508/AVS1508/master/assets/Night-Coding.gif"/> : <Image src={deved} layout='fill'/>
+                }
+              </div> */}
+
+              {
+                darkMode ? <div className="">
+                  <img alt="Night Coding" src="https://raw.githubusercontent.com/AVS1508/AVS1508/master/assets/Night-Coding.gif" className="w-80 h-64 md:w-96 md:h-64"/></div>
+                  :
+                  <div className="relative bg-gradient-to-b from-cyan-500 to-teal-500 rounded-full w-80 h-80 mx-auto overflow-hidden mt-0 md:w-96 md:h-96">
+                    <Image src={deved} layout='fill'/>
+                  </div>
+              }
           </div>
         </section>
 
