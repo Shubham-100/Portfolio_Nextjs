@@ -6,6 +6,8 @@ import {SiLeetcode, SiGmail} from 'react-icons/si';
 import deved from "../../public/dev-ed-wave.png";
 import { useState } from 'react';
 
+{/* <img alt="Night Coding" src="https://raw.githubusercontent.com/AVS1508/AVS1508/master/assets/Night-Coding.gif"/> */}
+
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
   return (
@@ -14,9 +16,9 @@ export default function Home() {
         <title>Shubham - Portfolio Website</title>
         <link rel="icon" href="./favicon.ico"/>
       </Head>
-      <main className="bg-white px-5 dark:bg-gray-800">
+      <main className="bg-white px-5  dark:bg-gray-800">
         <section className="min-h-screen w-full">
-          <nav className="py-2 mb-0 flex justify-between fixed top-0 w-full z-50 bg-white dark:bg-gray-800">
+          <nav className="py-2 mb-0 flex justify-between fixed top-0 w-full z-50 bg-white  dark:bg-gray-800">
             <h1 className=" text-2xl font-burtons scroll-smooth dark:text-white"><a href="#">Developed by Shubham</a></h1>
             <ul className="flex items-center mt-0 gap-2 md:gap-6">
               <li className="cursor-pointer text-xl dark:text-white"><BsFillMoonStarsFill onClick={() => setDarkMode(!darkMode)}/></li>
@@ -87,9 +89,26 @@ Users can search for content of their preference based on genre</p>
               <p className="text-md py-5 leading-8 md:text-md max-w-2xl mx-auto">Developed an application similar to Watch Pedia where you can see the rating and launch dates of movies and web series
 User can see the Trending Movies, Shows, Web series on the internet. Trailer and information about the Movies and Web series also available</p>
             </div>
-            </div>
-       
+          </div>
         </section>
+
+        <section>
+          <div className="px-10 py-20 mt-0 mx-auto md:max-w-xl md:shadow-2xl md:rounded-2xl">
+            <h1 className="text-3xl mx-auto md:text-5xl text-center font-semibold text-teal-500 dark:text-white pb-10 justify-center">Achievements</h1>
+            <div className="flex flex-row flex-wrap gap-4 md:gap-10 justify-center">
+              <ul className="list-disc leading-8">
+                <li>
+                  <h3 className="mb-5">I have been a 2 time Google Summer of Code student in the year <a href="https://github.com/Shubham-100/GSoC19" target="_blank" className="underline text-blue-600 hover:text-blue-800 visited:text-purple-600">2019</a> and <a href="https://github.com/Shubham-100/GSoC20" target="_blank" className="underline text-blue-600 hover:text-blue-800 visited:text-purple-600">2020</a>, wherein I wrote code for an open source organization called KDE over a 3-month long period. All the code I wrote was reviewed by my mentors
+                  and actually shipped into production.</h3>
+                </li>
+                <li>
+                <h3>I have solved 400+ algorithmic problems over <a href="https://leetcode.com/aryan10jangid/" target="_blank" className="underline text-blue-600 hover:text-blue-800 visited:text-purple-600">Leetcode</a> platform which shows my data structures and algorithmic understanding. I also regularly take part in weekly contests so that I always keep in touch with data structures.</h3>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
         <footer className="p-2  mx-14">
                 <p className="dark:text-white  text-center p-2">Copyright© 2023 | Designed by Shubham</p>
         </footer>
