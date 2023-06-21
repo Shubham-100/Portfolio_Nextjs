@@ -94,8 +94,8 @@ User can see the Trending Movies, Shows, Web series on the internet. Trailer and
 
         <section>
           <div className="px-10 py-20 mt-0 mx-auto md:max-w-xl md:shadow-2xl md:rounded-2xl">
-            <h1 className="text-3xl mx-auto md:text-5xl text-center font-semibold text-teal-500 dark:text-white pb-10 justify-center">Achievements</h1>
-            <div className="flex flex-row flex-wrap gap-4 md:gap-10 justify-center">
+            <h1 className="text-3xl mx-auto md:text-5xl text-center font-semibold text-teal-500  pb-10 justify-center">Achievements</h1>
+            <div className="flex flex-row flex-wrap gap-4 md:gap-10 justify-center text-black  dark:text-white">
               <ul className="list-disc leading-8">
                 <li>
                   <h3 className="mb-5">I have been a 2 time Google Summer of Code student in the year <a href="https://github.com/Shubham-100/GSoC19" target="_blank" className="underline text-blue-600 hover:text-blue-800 visited:text-purple-600">2019</a> and <a href="https://github.com/Shubham-100/GSoC20" target="_blank" className="underline text-blue-600 hover:text-blue-800 visited:text-purple-600">2020</a>, wherein I wrote code for an open source organization called KDE over a 3-month long period. All the code I wrote was reviewed by my mentors
