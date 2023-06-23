@@ -11,6 +11,9 @@ const Achievements = () => {
                   and actually shipped into production.</h3>
                 </li>
                 <li>
+                  <h3 className="mb-5">I am an open source enthusiast who contributes code to the FOSS organization KDE in my leisure time. I have successully merged over 150+ PRs in <a href="https://kde.org" target="_blank" className="underline text-blue-600 hover:text-blue-800 visited:text-purple-600">KDE</a> organization.</h3>
+                </li>
+                <li>
                 <h3>I have solved 400+ algorithmic problems over <a href="https://leetcode.com/aryan10jangid/" target="_blank" className="underline text-blue-600 hover:text-blue-800 visited:text-purple-600">Leetcode</a> platform which shows my data structures and algorithmic understanding. I also regularly take part in weekly contests so that I always keep in touch with data structures.</h3>
                 </li>
               </ul>
