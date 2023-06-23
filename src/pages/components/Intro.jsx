@@ -8,7 +8,7 @@ const Intro = ({darkMode}) => {
     return (
         <div className="dark:text-white mx-auto md:shadow-2xl md:rounded-2xl md:max-w-xl">
               <div className="text-center p-5">
-                <h2 className="text-6xl pt-5 text-teal-500 font-bold">Shubham</h2>
+                <h2 className="text-6xl pt-8 text-teal-500 font-bold">Shubham</h2>
                 <h3 className="text-lg py-2 md:text-xl">Open Source Developer</h3>
                 <p className="text-md py-5 leading-8 md:text-md max-w-xl mx-auto">A Two time Google Summer of Code student, dynamic and skilled software developer with expertise in C++, Python, Javascipt, Java, React, Tailwind and Bootstrap framework. Passionate about open source software and actively engaged in the open source community. Regularly practices problem-solving skills through platforms like LeetCode. Looking for a full time Software Developer role, feel free to contact me.</p>
                 <div className="text-3xl md:text-4xl flex justify-center gap-6 py-5 text-gray-800 dark:text-white">
