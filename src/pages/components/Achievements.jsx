@@ -2,8 +2,8 @@ import React from 'react';
 
 const Achievements = () => {
     return (
-        <div className="px-10 py-20 mt-0 mx-auto md:max-w-xl md:shadow-2xl md:rounded-2xl">
-            <h1 className="text-3xl mx-auto md:text-5xl text-center font-semibold text-teal-500  pb-10 justify-center">Achievements</h1>
+        <div className="px-10 pt-10 pb-5 mt-0 mx-auto md:max-w-xl md:shadow-2xl md:rounded-2xl">
+            <h1 className="text-3xl mx-auto md:text-5xl text-center font-semibold text-teal-500 pb-5 justify-center">Achievements</h1>
             <div className="flex flex-row flex-wrap gap-4 md:gap-10 justify-center text-black  dark:text-white">
               <ul className="list-disc leading-8">
                 <li>

@@ -13,9 +13,9 @@ export default function Home() {
     <div className={darkMode ? "dark" : ""}>
       <Head>
         <title>Shubham - Portfolio Website</title>
-        <link rel="icon" href="./favicon.ico"/>
+        <link rel="icon" href="./port.jpg"/>
       </Head>
-      <main className="bg-white px-5  dark:bg-gray-800">
+      <main className="bg-white px-5  dark:bg-gradient-to-r from-[#404040] to-[#181818]">
         <section className="min-h-screen w-full">
           <Navbar darkMode={darkMode} setDarkMode={setDarkMode}/>
           <Intro darkMode={darkMode}/>
