@@ -8,7 +8,7 @@ const Projects = () => {
             <h5 className="text-2xl font-medium py-5 text-center text-black dark:text-white">YouTubeMate</h5>
             <div className="flex flex-col flex-wrap gap-8  py-0 text-black  dark:text-white">
               {/* <img src="yt.png" width="100%" height="100%" className="mx-auto border-solid border-black dark:border-white border-4 hover:border-solid"/> */}
-              <Image src="/yt.png" width={600} height={300} className="mx-auto border-solid border-black dark:border-white border-4 hover:border-solid overflow-hidden mt-0 md:w-96 md:h-64"/>
+              <Image src="/ant.png" width={600} height={300} className="mx-auto border-solid border-black dark:border-white border-4 hover:border-solid overflow-hidden mt-0 md:w-96 md:h-64"/>
               <ul className="flex flex-row items-center justify-center gap-4">
                 <li><a href="https://youtubemate1.netlify.app/" target="_blank" className="text-xl bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 mr-4 py-2 rounded-md">Visit Site</a></li>
                 <li><a href="https://github.com/Shubham-100/YouTubeMate" target="_blank"><img src="./github.png" width="32" height="32"/></a></li>
