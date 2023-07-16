@@ -1,2 +1,2 @@
 Live site here:
-https://portfooolio.vercel.app/
+https://myportfooolio.netlify.app
